@@ -46,6 +46,7 @@ const FieldLabel = ({ icon, children }) => (
     </label>
 );
 
+
 const ModalBox = ({ title, icon, onClose, children }) => (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
         style={{ position: 'fixed', inset: 0, background: 'rgba(7,11,20,0.85)', backdropFilter: 'blur(8px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 50, padding: '1rem' }}>
