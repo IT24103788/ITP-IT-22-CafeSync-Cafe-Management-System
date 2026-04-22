@@ -502,3 +502,4 @@ const MenuInventoryManagement = () => {
 };
 
 export default MenuInventoryManagement;
+
